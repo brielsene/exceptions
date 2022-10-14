@@ -5,7 +5,8 @@ public class Main {
 		System.out.println("Começo");
 		try {
 			metodo1();
-		} catch (ArithmeticException ex) {
+		//abaixo exceptionm geral - pega qualquer exceção
+		} catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("ArithmeticException" + msg);
 
